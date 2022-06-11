@@ -2,7 +2,7 @@
 from flask import Flask, jsonify, request
 app = Flask(__name__)
 
-# flask run -> server runs at http://127.0.0.1:24000/ 
+# flask run -> server runs at http://127.0.0.1:[whatever your number is here]
 @app.route("/")
 def hello():
     return "Hello World!"
